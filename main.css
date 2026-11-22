@@ -1,0 +1,132 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+button {
+  border: none;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  gap: 20px;
+  /* padding: 20px; */
+  border: 30px solid #444444;
+}
+
+/* input {
+  display: block;
+  
+} */
+
+.img-najot {
+  width: 800px;
+  height: 670px;
+}
+
+.najot-logo {
+  margin-bottom: 100px;
+  margin-top: 60px;
+}
+form {
+  width: 400px;
+  height: 248px;
+  /* border: 2px solid red; */
+  /* padding: 20px; */
+  border-radius: 10px;
+  margin-bottom: 418.5px;
+  /* background-color: rgb(9, 99, 99); */
+
+  .input1 {
+    width: 100%;
+    padding: 10px;
+    width: 400px;
+    height: 40px;
+    margin: 10px auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 2px solid #d9d9d9;
+
+    /* color: white; */
+    /* background-color: bisque; */
+  }
+  .input2 {
+    width: 100%;
+    padding: 10px;
+    width: 400px;
+    height: 40px;
+    margin: 10px auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-image: url("./image/Img\ -\ eye-invisible.png");
+    background-repeat: no-repeat;
+    background-position: 370px;
+    padding-right: 20px;
+    border: 2px solid #d9d9d9;
+    /* color: white; */
+    /* background-color: bisque; */
+  }
+
+  margin: 10px auto;
+}
+
+.tittle1 {
+  margin-bottom: 32px;
+  text-align: start;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 38px;
+  color: #0f1826;
+}
+
+.tittle {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.yulduz {
+  margin-bottom: 4px;
+}
+
+.btn {
+  width: 400px;
+  height: 40px;
+  background-color: #0eb182;
+  color: white;
+  border-radius: 10px;
+  /* height: 50px; */
+  cursor: pointer;
+}
+
+label {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 1000px) {
+  body {
+    width: 400px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    border: none;
+    align-items: center;
+    justify-content: center;
+  }
+  .img-najot {
+    width: 390px;
+    height: 400px;
+  }
+
+  form {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  input {
+    width: 200px;
+  }
+}
